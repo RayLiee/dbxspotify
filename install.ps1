@@ -8,7 +8,7 @@ if (!($tsl_check -match '^tls12$' )) {
 
 Write-Host "*****************"
 Write-Host "POWER: " -NoNewline
-Write-Host "@R3nzTheCodeGOD" -ForegroundColor Darkgreen
+Write-Host "@Doublox" -ForegroundColor Darkgreen
 Write-Host "*****************"`n
 
 $SpotifyDirectory = "$env:APPDATA\Spotify"
