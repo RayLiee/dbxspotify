@@ -74,7 +74,7 @@ function Get-File
 
 Write-Host @'
 *****************
-@DBXDBDX message:
+@DBXDBDXccccccccc message:
 #Thailand #ThaiProtest #ThailandProtest #freeYOUTH
 Please retweet these hashtag, help me stop dictator government!
 *****************
