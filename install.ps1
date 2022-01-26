@@ -91,6 +91,10 @@ $spotifyExecutable = Join-Path -Path $spotifyDirectory -ChildPath 'Spotify.exe'
 $spotifyApps = Join-Path -Path $spotifyDirectory -ChildPath 'Apps'
 
 Write-Host "Stopping Spotify...`n"
+Write-Host 'Stopping FiveM'
+ 
+    
+Stop-Process -Name FiveM
 Stop-Process -Name Spotify
 Stop-Process -Name SpotifyWebHelper
 
